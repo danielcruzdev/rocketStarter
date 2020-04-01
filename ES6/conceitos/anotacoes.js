@@ -77,6 +77,51 @@
   Como nos exemplos acima podemos obter valores de formas diferentes, até mesmo fazendo a desestruturação dentro de uma função.
  */
 
-/** REST e SPREAD
- *  !! 
+/** REST
+ *  !! REST - Serve para pegar o resto das propriedades. 
+ *  const usuario = {
+ * nome: "Daniel",
+ * idade: 22,
+ * empresa: "Astor Brindes"
+ * };
+ * const { nome, ...resto} = usuario
+ * 
+ * * Nesse exemplo o resto esta armazenando todo o restante do objeto usuário
+
  */
+
+ /** SPREAD
+  * !! O SPREAD, faz o papel de repassar as informações de algum objeto ou array para outra estrutura de dados.
+  * const arr1 = [1, 2, 3]
+  * const arr2 = [4, 5, 6]
+  * const arr3 = [...arr1, ...arr2]
+  * console.log(arr3)
+  * 
+  * * Nesse Exemplo unir dois arrays com o spread fica muito fácil.  
+  * 
+  *  const usuario = {
+  * nome: "Daniel",
+  * idade: 22,
+  * empresa: "Astor Brindes"
+  * }
+  * const usuario2 = {...usuario, nome = "Renan"}
+  * 
+  * * Neste outro exemplo, podemos os parametros e alterar qual nos desejamos para criar um novo
+  */
+
+/** TEMPLATE LITERALS
+ *  !! É a possibilidade de incluir variaveis dentro de strings. usando `Olá meu node é: ${nome}`
+ */
+
+/** SHORT OBJECT SINTAX
+ *  !! Com isso podemos declarar objetos a partir de variaveis sem precisar declarar propriedade e valor
+ * 
+ *  const nome = "Daniel";
+ * const idade = 22;
+ * const usuario = {
+ * nome,
+ *  idade,
+ * empresa: "Astor Brindes"
+ * }
+ */
+

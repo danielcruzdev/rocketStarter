@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso JavaScript</title>
+</head>
+
+<body>
+    <div id="app">
+        <input id='nome' />
+    </div>
+
+    <script>
+        let linkElement = document.createElement('a');
+        linkElement.setAttribute('href', 'http://danielcruzdev.com.br')
+        linkElement.setAttribute('title', 'Curriculum Daniel Cruz')
+
+        let textElement = document.createTextNode('Acessar meu site')
+        linkElement.appendChild(textElement)
+
+        let containerElement = document.querySelector('#app')
+        containerElement.appendChild(linkElement)
+
+        let inputElement = document.querySelector('#nome')
+        containerElement.removeChild(inputElement)
+    </script>
+</body>
+
+</html>

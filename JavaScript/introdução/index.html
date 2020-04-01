@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            //Javascript
+            //Variavéis
+            let nome = 'Daniel';
+            let idade = 23
+            let peso = 2.34
+            let humano = true
+            let vet = ['Diego', 'Daniel', 'Renan', 'Maria']
+            let obj ={name: 'Diego', idade: 23, peso: 80.5, humano: true}
+            console.log(nome, idade, peso, humano)
+            console.log(vet)
+            console.log(obj)
+            console.log(vet[2])
+            console.log(obj.name)
+
+            //Funções // condicionais
+            function retornaSexo(sexo, idade ){
+                if(idade >= 18 && sexo === "M" || sexo === "m"){
+                    console.log("Masculino - Maior de Idade")
+                }
+                else if (idade < 18 && sexo === "M" || sexo === "m"){
+                    console.log("Masculino - Menor de Idade")
+                }
+                else if(idade >= 18 && sexo === "F" || sexo === "f"){
+                    console.log("Feminino - Maior de Idade")
+                }
+                else if (idade < 18 && sexo === "F" || sexo === "f"){
+                    console.log("Feminino - Menor de Idade")
+                }
+                else{
+                    console.log("Erro de entrada!")
+                }
+            }
+            retornaSexo('M', 18)
+
+            //Condição ternária
+            var sexo = 'M'
+            var resultado = (sexo === "M") ? 'Masculino' : 'Feminino'
+            console.log(resultado);
+
+            //Estruturas de repetição
+            //for (var i = 0; i <= 100;i++){
+             //   console.log(i)
+            //}
+            //j = 0
+            //while(j <= 100){
+            //    console.log(j)
+            //}
+            function exibeOla(){
+                console.log("Olá")
+            }
+            //setInterval(exibeOla, )
+
+
+
+        </script>
+    </body>
+</html>

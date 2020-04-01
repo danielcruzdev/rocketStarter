@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="app">
+
+        </ul>
+    </div>
+
+    <script>
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        let textElement1 = document.createTextNode(nomes[0])
+        let textElement2 = document.createTextNode(nomes[1])
+        let textElement3 = document.createTextNode(nomes[2])
+
+        let ListElement = document.querySelector('.app')
+
+        let item1 = document.createElement('li')
+        let item2 = document.createElement('li')
+        let item3 = document.createElement('li')
+
+        item1 = textElement1
+        item2 = textElement2
+        item3 = textElement3
+
+        listElement.appendChild(item1)
+        listElement.appendChild(item2)
+        listElement.appendChild(item3)
+    </script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 # RocketSeat - Curso STARTER 
 
-O curso abrange os ensinamentos básicos dos itens abaixo, trazendo o conteudo de forma inteligente e de forma objetiva.
+O curso abrange os ensinamentos básicos dos itens abaixo, trazendo o conteudo de forma inteligente e objetiva.
 Preparando os programados iniciantes para o LaunchBase, curso intermediario da Rocket. 
 
 #JavaScript/ES6
